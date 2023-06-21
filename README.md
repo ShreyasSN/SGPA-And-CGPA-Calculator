@@ -13,7 +13,7 @@ To customize the grading scale, follow these steps:
  Modify the letter grades and their corresponding grade points.
    Example:
    ```python
-   grading_scale = {
+
         S = 10
         A = 9
         B = 8
@@ -21,6 +21,14 @@ To customize the grading scale, follow these steps:
         D = 6
         E = 5
         F = 0
-   }
+
    ```
-4. Save the file.
+An example for updating the semester grades as follow :
+  ```python
+
+       sem = [[Course credit, Grade sored], [next course grades], [and so on]]
+       
+       sem = [[2,B],[1,B],[3,S],[4,S],[4,A],[3,A]]
+
+  ```
+
